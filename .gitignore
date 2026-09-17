@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pkl
+*.joblib
+# Virtual environment
+.venv/
+venv/
+
+@"
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+"@ | Out-File -Encoding utf8 .gitignore
