@@ -1,23 +1,11 @@
 .venv/
 venv/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 .env
-.env.*
-.vscode/
-.idea/
-*.pyc
-*.pyo
-*.pkl
-*.joblib
-# Virtual environment
-.venv/
-venv/
+.DS_Store
 
-@"
-.venv/
-venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-"@ | Out-File -Encoding utf8 .gitignore
+# Generated project outputs
+data/processed/
+outputs/
